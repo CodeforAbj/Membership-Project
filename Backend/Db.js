@@ -4,6 +4,7 @@ mongoose.connect(config.mongoURL);
 const userSchema = mongoose.Schema({
   username: String,
   password: String,
+  persistent: Boolean,
 });
 const cardSchema = mongoose.Schema({
   username: String,
@@ -11,6 +12,7 @@ const cardSchema = mongoose.Schema({
   about: String,
   team: String,
   image: String,
+  persistent: Boolean,
 });
 const users = mongoose.model("users", userSchema);
 const cards = mongoose.model("cards", cardSchema);

@@ -1,0 +1,27 @@
+
+# Node.js
+node_modules/
+
+# Express
+dist/
+.build/
+
+# Vite
+out/
+
+# React
+build/
+*.log
+
+# Config files
+config.js
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# Logs
+*.log
+npm-debug.log*
